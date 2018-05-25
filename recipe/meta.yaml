@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.6" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/prediction_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/prediction/prediction_{{ version }}.tar.gz
-  sha256: c053e2fbfc0b605acef8f901e365226ed7903afc1f10c1b6d7493f120d00c5a8
+  sha256: 411670b1892113e2336b2a77a08309f41deeb7d5fad1ede87378d2e24418a7a5
 
 build:
   number: 0
