@@ -14,14 +14,16 @@ Summary: A one-function package containing 'prediction()', a type-safe alternati
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-prediction-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-prediction-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-prediction-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-prediction-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-prediction-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-prediction-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-prediction-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-prediction-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-prediction-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-prediction-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-prediction-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-prediction-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-prediction/badges/version.svg)](https://anaconda.org/conda-forge/r-prediction)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-prediction/badges/downloads.svg)](https://anaconda.org/conda-forge/r-prediction)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--prediction-green.svg)](https://anaconda.org/conda-forge/r-prediction) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-prediction.svg)](https://anaconda.org/conda-forge/r-prediction) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-prediction.svg)](https://anaconda.org/conda-forge/r-prediction) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-prediction.svg)](https://anaconda.org/conda-forge/r-prediction) |
 
 Installing r-prediction
 =======================
