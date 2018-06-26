@@ -1,5 +1,4 @@
-{% set version = "0.3.6" %}
-
+{% set version = '0.3.6' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,30 +9,30 @@ package:
 source:
   fn: prediction_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/prediction_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/prediction/prediction_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/prediction_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/prediction/prediction_{{ version }}.tar.gz
   sha256: 411670b1892113e2336b2a77a08309f41deeb7d5fad1ede87378d2e24418a7a5
 
 build:
+  merge_build_host: True  # [win]
   number: 0
   skip: true  # [win32]
-
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
   build:
+  host:
     - r-base
     - r-data.table
-
   run:
     - r-base
     - r-data.table
 
 test:
   commands:
-    - $R -e "library('prediction')"  # [not win]
+    - $R -e "library('prediction')"           # [not win]
     - "\"%R%\" -e \"library('prediction')\""  # [win]
 
 about:
