@@ -14,9 +14,8 @@ Summary: A one-function package containing 'prediction()', a type-safe alternati
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-prediction-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-prediction-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-prediction-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-prediction-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-prediction-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-prediction-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-prediction-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-prediction-feedstock)
 
 Current release info
 ====================
